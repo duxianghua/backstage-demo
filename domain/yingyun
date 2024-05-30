@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: yingyun
+  description: Everything about artists
+spec:
+  owner: artist-relations-team
+  subdomainOf: sub1-domain
