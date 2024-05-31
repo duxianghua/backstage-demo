@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: audio-playback
-  description: Audio playback system
+  name: audio-playback-test
+  description: 测试A
 spec:
   owner: team-c
   domain: playback
