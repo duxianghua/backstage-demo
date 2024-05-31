@@ -7,23 +7,23 @@ spec:
   owner: 雷阳
   # subdomainOf: audio-domain
 ---
-# apiVersion: backstage.io/v1alpha1
-# kind: Group
-# metadata:
-#   name: yingyun
-#   description: The yingyun organization
-#   links:
-#     - url: http://www.acme.com/
-#       title: Website
-#     - url: https://meta.wikimedia.org/wiki/
-#       title: Intranet
-# spec:
-#   type: organization
-#   profile:
-#     displayName: ACME Corp
-#     email: info@example.com
-#     picture: https://api.dicebear.com/7.x/identicon/svg?seed=Maggie&flip=true&backgroundColor=ffdfbf
-#   children: [infrastructure]
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: yingyun
+  description: The yingyun organization
+  links:
+    - url: http://www.acme.com/
+      title: Website
+    - url: https://meta.wikimedia.org/wiki/
+      title: Intranet
+spec:
+  type: department
+  profile:
+    displayName: Yingyun
+    email: info@example.com
+    picture: https://api.dicebear.com/7.x/identicon/svg?seed=Maggie&flip=true&backgroundColor=ffdfbf
+  # children: [infrastructure]
 # ---
 # apiVersion: backstage.io/v1alpha1
 # kind: Location
