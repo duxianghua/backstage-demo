@@ -23,6 +23,33 @@ spec:
     displayName: Yingyun
     email: info@example.com
     picture: https://api.dicebear.com/7.x/identicon/svg?seed=Maggie&flip=true&backgroundColor=ffdfbf
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-a
+  description: The yingyun organization
+  links:
+    - url: http://www.acme.com/
+      title: Website
+    - url: https://meta.wikimedia.org/wiki/
+      title: Intranet
+spec:
+  type: team
+  profile:
+    displayName: team-a-yingyun
+    email: info@example.com
+    picture: https://api.dicebear.com/7.x/identicon/svg?seed=Maggie&flip=true&backgroundColor=ffdfbf
+---
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: ip-1.1.1.1
+  description: k8s nodes
+spec:
+  type: cvm
+  owner: team-a
+  system: a-portal
   # children: [infrastructure]
 # ---
 # apiVersion: backstage.io/v1alpha1
