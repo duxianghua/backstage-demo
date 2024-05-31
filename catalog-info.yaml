@@ -21,3 +21,21 @@ spec:
   type: library
   owner: CNCF
   lifecycle: experimental
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: yingyun
+  description: Everything about artists
+spec:
+  owner: artist-relations-team
+  subdomainOf: audio-domain
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: yingyun-salary-portal
+  description: Handy tools to keep artists in the loop
+spec:
+  owner: zhenzhen
+  domain: yingyun
