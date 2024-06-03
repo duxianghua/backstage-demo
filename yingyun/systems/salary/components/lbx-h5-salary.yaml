@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: lbx-h5-salary
+  description: |
+    薪酬H5前端页面
+  links:
+    - url: https://github.com/swagger-api/swagger-petstore
+      title: GitHub Repo
+      icon: github
+spec:
+  type: service
+  lifecycle: production
+  owner: yingyun-team

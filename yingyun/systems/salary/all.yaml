@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: salary-systems
+  description: A collection of all salary systems
+spec:
+  targets:
+    - ./systems.yaml
+    - ./components/lbx-h5-salary.yaml
+    - ./components/lbx-mng-salary.yaml
+    - ./components/lbx-ms-biz-salary-calculator.yaml
+    - ./components/lbx-ms-biz-salary-server.yaml
+    

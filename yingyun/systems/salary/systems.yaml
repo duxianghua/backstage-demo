@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: Salary
+  description: 薪酬计算器
+  tags:
+    - portal
+spec:
+  owner: salary-team
+  domain: yingyun
